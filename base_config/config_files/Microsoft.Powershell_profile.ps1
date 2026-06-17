@@ -24,4 +24,4 @@ Set-Alias py313 "C:\Users\james\AppData\Local\Programs\Python\Python313\python.e
 $GITHUB_THEME = "https://raw.githubusercontent.com/PensiveEagle/development-configs/refs/heads/main/base_config/config_files/my-github-omp-theme.omp.json"
 $CATPPUCCIN_FRAPPE = "https://raw.githubusercontent.com/PensiveEagle/development-configs/refs/heads/main/base_config/config_files/my-catfrap-omp-theme.omp.json"
 
-oh-my-posh init pwsh --config GITHUB_THEME | Invoke-Expression
+oh-my-posh init pwsh --config $GITHUB_THEME | Invoke-Expression
