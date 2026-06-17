@@ -21,7 +21,7 @@ Set-Alias venv-end "deactivate"
 Set-Alias py313 "C:\Users\james\AppData\Local\Programs\Python\Python313\python.exe"
 
 # Run Oh My Posh
-$GITHUB_THEME = "C:\Users\James\.oh-my-posh\themes\my-github-omp-theme.omp.json"
-$CATPPUCCIN_FRAPPE = "C:\Users\James\.oh-my-posh\themes\my-catfrap-theme.omp.json"
+$GITHUB_THEME = "https://raw.githubusercontent.com/PensiveEagle/development-configs/refs/heads/main/base_config/config_files/my-github-omp-theme.omp.json"
+$CATPPUCCIN_FRAPPE = "https://raw.githubusercontent.com/PensiveEagle/development-configs/refs/heads/main/base_config/config_files/my-catfrap-omp-theme.omp.json"
 
 oh-my-posh init pwsh --config GITHUB_THEME | Invoke-Expression
