@@ -1,1 +1,0 @@
-winget install Google.Chrome -s winget
