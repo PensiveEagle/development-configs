@@ -20,5 +20,15 @@ winget install Obsidian.Obsidian -s winget
 # ===== VS Code ===== #
 winget install Microsoft.VisualStudioCode -s winget
 
+# ===== WSL ===== #
+wsl --install
+wsl --upgrade
+wsl --install Ubuntu
+
+# ===== Docker Desktop ===== #
+winget install Docker.DockerDesktop -s winget
+
+
+
 echo "All software installed!"
 echo "`n--------------------------------------------------------------------`n"
