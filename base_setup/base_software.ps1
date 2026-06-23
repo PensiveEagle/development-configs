@@ -36,7 +36,8 @@ winget install Docker.DockerDesktop -s winget
 
 docker login -u PensiveEagle
 
-
+# ===== Postman ===== #
+winget install Postman.Postman -s winget
 
 echo "All software installed!"
 echo "`n--------------------------------------------------------------------`n"
