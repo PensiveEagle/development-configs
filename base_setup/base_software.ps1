@@ -39,5 +39,16 @@ docker login -u PensiveEagle
 # ===== Postman ===== #
 winget install Postman.Postman -s winget
 
+# ===== Azure CLI ===== #
+winget install --exact --id Microsoft.AzureCLI
+
+# ===== Terraform ===== #
+winget install Hashicorp.Terraform -s winget
+
+# ===== Git ===== #
+winget install Git.Git -s winget
+
 echo "All software installed!"
+echo "`n--------------------------------------------------------------------`n"
+echo "Remember to to:`n + Set git user configs`n + Login to Azure CLI"
 echo "`n--------------------------------------------------------------------`n"
