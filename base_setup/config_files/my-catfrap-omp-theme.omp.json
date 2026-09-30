@@ -1,11 +1,11 @@
 {
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "palette": {
-        "os": "#ff6500", 
-        "chevron": "#F2D5CF",
-        "filepath": "#F2D5CF",
+        "os": "#8CAAEE", 
+        "chevron": "#F4B8E4",
+        "filepath": "#F4B8E4",
         "git": "#E5C890",
-        "hostname":  "#ff6500"
+        "hostname":  "#8CAAEE"
   },
   "blocks": [
     {
